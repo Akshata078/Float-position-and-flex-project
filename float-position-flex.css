@@ -2,11 +2,15 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 nav{
+    width: 100%;
+    z-index: 1;
     background-color: rgb(6, 59, 6);
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 3rem;
+    position: fixed;
+    top: 0;
 }
 h1{
     font-weight: 100;
