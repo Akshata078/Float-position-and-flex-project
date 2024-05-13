@@ -1,0 +1,219 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: rgb(6, 59, 6);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
+}
+h1{
+    font-weight: 100;
+    font-size: medium;
+    color: white;
+}
+ul li{
+    list-style-type: none;
+    margin: 10px 10px;
+}
+ul{
+    display: flex; 
+}
+a{
+    text-decoration: none
+}
+button{
+    border-radius: 7px;
+    padding: 5px;
+}
+a{
+    color: black;
+}
+a:visited{
+    color: lightgreen;
+}
+.float-positioning{
+    background-color: rgb(27, 148, 118);
+    margin: 0 0;
+}
+h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: small;
+    margin: 0;
+    padding: 1rem;
+}
+.box1, .box2, .box3{
+    border: 2px solid red;
+    width: 25%;
+    padding: 0.5rem;
+    
+}
+.float-box{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.section1{
+    height: 4rem;
+    width: 4rem;
+    background-color: rgb(3, 24, 3);
+    color: white;
+    font-size: 0.7rem;
+    border-radius: 3px;
+    border: 0.1rem solid orange;
+    margin: auto;
+  
+   
+}
+.section2{
+    height: 4rem;
+    width: 4rem;
+    background-color: rgb(31, 29, 29);
+    color: white;
+    font-size: 0.7rem;
+    border-radius: 3px;
+    border: 0.1rem solid orangered;
+    margin: auto;
+}
+.section1, .section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2 .section2{
+    float: left;
+}
+.box2 .sec1{
+    position: relative;
+    right: 2rem;
+}
+.box3 .section2{
+    float:right;
+}
+.box3 .sec1{
+    position: relative;
+    left: 2rem;
+}
+
+.square1, .square2, .square3, .square4{
+    width: 25%;
+    border: 2px solid purple;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+.square{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+ .square2 .section2{
+    position: relative;
+    left: 1.5rem;
+    top: 1.7rem;
+ }
+ .square3{
+    position: relative;
+ }
+ .square3 .section2{
+    position: absolute;
+    left: 2rem;
+ }
+ .square4{
+    height: 15rem;
+    overflow-y: scroll;
+ 
+
+ }
+ .square4 .section2{
+    position: sticky;
+    top: 2rem;
+ }
+ p{
+    font-size:x-small;
+ }
+
+
+ .flex-positioning{
+    background-color: rgb(27, 148, 118);
+    padding: 0 8rem;
+ }
+
+ .item{
+    height: 4rem;
+    width: 4rem;
+    background-color: rgb(3, 37, 3);
+    color: white;
+    font-size: 0.7rem;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid orange;
+    margin: 0.1rem;
+ }
+ .flex1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .flex2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .flex3{
+    display: flex;
+    padding: 0 2rem;
+ }
+ .flex3 .item3{
+    flex-grow: 1;
+ }
+ .flex4{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ .item6{
+    display: flex;
+    justify-content: center;
+ }
+ .item-space-bet{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+ }
+ hr{
+    height: 2px;
+    background-color:  brown;
+    border: none;
+ }
+ footer{
+    display: flex;
+    background-color: purple;
+    justify-content: center;
+   
+ }
+ .icon{
+    margin: 0.8rem;
+    color: orange;
+ }
+.go-to-top{
+    height: 2rem;
+    width: 2rem;
+    background-color: red;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position: fixed;
+    right: 0.5rem;
+    bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-icon{
+    color: white;
+}
